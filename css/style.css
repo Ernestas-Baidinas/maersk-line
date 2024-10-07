@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #ffffff;
+    height: 50px;
+    width: 100%;
+}
+
+label {
+    color: #ffffff;
+    font-size: 150%;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 8%;
+}
+
+#logo {
+    color: #ffa600;
+    float: left;
+    padding-top: 0.5%;
+    margin-left: 10%;
+}
+
+a:hover {
+    color: #ffa600;
+}
+
+a:active {
+    color: #ffa600;
+}
+
+nav>div>ul {
+    padding-right: 30%;
+    height: 40px;
+}
+
+nav>div>ul>li {
+    list-style-type: none;
+    float: right;
+    padding-right: 2%;
+    font-size: 150%;
+}
+
+a,
+#logo,
+label {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+a {
+    padding-top: 10%;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-image: url(../images/maersk.jpg);
+    background-size: 100% 100%;
+    height: 80rem;
+    opacity: 0.6;
+}
+
+form {
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.offer {
+    font-family: "Lato", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.offer {
+    font-size: 30px;
+    color: #ffa600;
+    font-weight: bold;
+}
+
+.offer~p {
+    font-size: 20px;
+}
+
+img~p,
+.offer,
+input,
+ul,
+.offer~p {
+    text-align: center;
+}
+
+article {
+    background-color: #dedede;
+}
+
+#container,
+#services {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-items {
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0.20rem;
+    border: groove 1px #b0b0b0;
+    color: #5d5d5d;
+}
+
+#p1 {
+    font-size: 30px;
+    color: #000000
+}
+
+#services {
+    background-color: #a9a9a9;
+    height: 30rem;
+}
+
+img {
+    width: 500px;
+    position: relative;
+    padding: 1rem;
+}
+
+img~p,
+footer,
+article,
+section {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img~p {
+    justify-content: center;
+    justify-items: center;
+    color: #434343;
+}
+
+img+p {
+    color: #ffa600;
+    font-size: 150%;
+}
+
+section>div section>div>p {
+    color: #7a7a7a;
+}
+
+#section-p1 {
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+#section-p2 {
+    color: orange;
+    margin-left: 2%;
+}
+
+#section-p1,
+#section-p2 {
+    font-weight: bold;
+}
+
+img {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #363636;
+    padding: 20px;
+}
+
+#section {
+    padding-right: 0%;
+    height: 0%;
+}
